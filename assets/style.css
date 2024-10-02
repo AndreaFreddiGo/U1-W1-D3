@@ -34,6 +34,13 @@ h1 {
   padding: 20px;
 }
 
+h3 {
+  padding: 20px;
+  padding-left: 0%;
+  font-family: "Minion Pro", sans-serif;
+  border-bottom: 1px solid #c4f3f2;
+}
+
 main img {
   display: block;
   width: 100%;
@@ -53,12 +60,15 @@ figcaption {
 }
 
 section article div {
-  padding-left: 10px;
+  padding-left: 20px;
   color: #107777;
+  border-left: 1px solid #ffd877;
+  text-decoration: underline;
 }
 
 #feature {
   color: #b5460f;
+  text-decoration: none;
 }
 
 .centered_text {
@@ -69,6 +79,12 @@ section article div {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.lists {
-  font-size: 0.2em;
+li {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px;
+  font-size: 0.9em;
+}
+
+a {
+  color: #107777;
 }
